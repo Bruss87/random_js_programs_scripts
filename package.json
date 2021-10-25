@@ -1,0 +1,37 @@
+{
+  "name": "random_programs_scripts",
+  "version": "1.0.0",
+  "description": "This a folder for different programs or scripts",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruss87/random_js_programs_scripts"
+  },
+  "author": "Karolina K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruss87/random_js_programs_scripts/issues"
+  },
+  "homepage": "https://github.com/Bruss87/random_js_programs_scripts#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "loadash": "^1.0.0",
+    "mongoose": "^5.13.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.9",
+    "prompt-sync": "^4.2.0",
+    "validator": "^13.6.0"
+  }
+}
